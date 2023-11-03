@@ -9,6 +9,7 @@ import (
 
 	"cosmossdk.io/math"
 	"cosmossdk.io/x/gov/client/cli"
+	authtypes "cosmossdk.io/x/auth/types"
 	govclitestutil "cosmossdk.io/x/gov/client/testutil"
 	"cosmossdk.io/x/gov/types"
 	v1 "cosmossdk.io/x/gov/types/v1"
@@ -19,7 +20,6 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	"github.com/cosmos/cosmos-sdk/testutil/network"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 
 type E2ETestSuite struct {

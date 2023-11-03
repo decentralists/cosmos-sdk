@@ -23,7 +23,7 @@ import (
 	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	authtypes "cosmossdk.io/x/auth/types"
 )
 
 func TestExpiredGrantsQueue(t *testing.T) {

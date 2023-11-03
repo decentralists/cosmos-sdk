@@ -190,9 +190,10 @@ In the current `TxBuilder`'s API, both steps are done using the same method: `Se
 
 ```go
 import (
+	xauthsigning "cosmossdk.io/x/auth/signing"
+
     cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	xauthsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 )
 
 func sendTx() error {
@@ -322,9 +323,10 @@ import (
 	"fmt"
 	"testing"
 
+	authtx "cosmossdk.io/x/auth/tx"
+
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/types/tx"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 )
 
 func simulateTx() error {
